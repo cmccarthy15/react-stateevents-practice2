@@ -12,5 +12,7 @@ TO START: json-server --watch db.json
 
 Generally... match the gif
 
+![beyonce gif](react-css-check.gif)
+
 More specifically / additional details:
 - On hover, image opacity needs to decrease and font size needs to increase on a transition of 1 second
