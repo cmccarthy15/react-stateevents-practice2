@@ -16,18 +16,42 @@
       "id": 3,
       "name": "I Probably Shouldn't Have Added This Slay",
       "img": "https://media.giphy.com/media/xT0BKERIJrOjV73nMc/giphy.gif",
-      "favorite": false
+      "favorite": true
     },
     {
       "id": 4,
       "name": "Hallway Slay",
       "img": "https://media1.tenor.com/images/07fcc7f498655079905813acbaa4113a/tenor.gif?itemid=5036498",
-      "favorite": false
+      "favorite": true
     },
     {
       "id": 5,
       "name": "Queen Slay",
       "img": "https://media1.tenor.com/images/390eeb72dc9e99e980d2e6f77dbe437b/tenor.gif?itemid=5230419",
+      "favorite": false
+    },
+    {
+      "id": 6,
+      "name": "Lemonade Slay",
+      "img": "https://media.giphy.com/media/l3V0doGbp2EDaLHJC/giphy.gif",
+      "favorite": true
+    },
+    {
+      "id": 7,
+      "name": "Balcony Slay",
+      "img": "https://media.giphy.com/media/MhHcCN6PoTdL2/giphy.gif",
+      "favorite": false
+    },
+    {
+      "id": 8,
+      "name": "Kale & Collards Slay",
+      "img": "https://media.giphy.com/media/I8XaJ6ZEFHI3u/giphy.gif",
+      "favorite": true
+    },
+    {
+      "id": 9,
+      "name": "Even My Glasses Slay",
+      "img": "https://media.giphy.com/media/Flsn8skCdrluM/giphy.gif",
       "favorite": false
     }
   ]

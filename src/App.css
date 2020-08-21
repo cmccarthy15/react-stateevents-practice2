@@ -1,46 +1,52 @@
-.App {
-  display: flex;
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#root {
+  background: url("https://wallpaperaccess.com/full/287027.jpg")
 }
 
 .container {
   display: flex;
+  justify-content: space-between;
+  text-align-last: center;
+  overflow-y: scroll;
+  max-height: 100vh;
 }
-.index {
-  width: 50%;
+
+img.bey-image {
+  max-height: 200px;
+  max-width: 100%;
+  transition: opacity 1s;
 }
-.favorites {
-  width: 50%;
+
+.bey-card {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-bottom: 10px;
+  color: white;
+  width: 45vw;
 }
-img {
-  width: 30%;
-  height: 30%;
+
+.bey-card > h3 {
+  transition: font-size 1s;
+  max-width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bey-card:hover > img {
+  opacity: 0.5;
+}
+
+.bey-card:hover > h3 {
+  font-size: 1.75em;
+  text-align: center;
 }

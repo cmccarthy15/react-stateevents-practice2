@@ -1,10 +1,10 @@
 import React from "react";
 
-const BeyCard = () => {
+const BeyCard = ({name, img}) => {
   return (
-    <div>
-      <h3>{/*Bey name goes here*/}</h3>
-      {/*image tag goes here*/}
+    <div className="bey-card">
+      <img className="bey-image" src={img} alt={name}/>
+      <h3 className="bey-header">{name}</h3>
     </div>
   );
 };
