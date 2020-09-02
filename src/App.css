@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root{
+  background-image: url('https://wallpaperaccess.com/full/287027.jpg');
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+.bey-card{
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  width: 45vw;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bey-card > img{
+  max-height: 200px;
+  max-width: 100%;
+  transition: opacity 1s;
+}
+
+.bey-card:hover > img{
+  opacity: .5;
+}
+
+.bey-card > h3 {
+  max-width: 90%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: font-size 1s;
+}
+
+.bey-card:hover > h3{
+  font-size: 1.5em;
+}
